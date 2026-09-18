@@ -1,0 +1,10 @@
+Recommended main-text outputs:
+1. table_test_performance_sorted.csv
+2. fig_roc_comparison_test.png
+3. fig_test_core_metrics.png
+
+Recommended supplementary outputs:
+1. table_model_results_full.csv
+2. fig_roc_comparison_valid.png
+3. fig_test_logloss.png
+4. fig_catboost_test.png / fig_catboost_valid.png

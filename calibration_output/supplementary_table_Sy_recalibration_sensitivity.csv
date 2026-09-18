@@ -1,0 +1,4 @@
+Method,AUC,Brier score,ECE,Log-loss
+Original CatBoost,0.8135,0.1766,0.0232,0.5247
+Platt scaling,0.8135,0.1761,0.0121,0.5223
+Isotonic regression,0.8132,0.1763,0.01,0.5286

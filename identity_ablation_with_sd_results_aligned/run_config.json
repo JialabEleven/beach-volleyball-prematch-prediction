@@ -1,0 +1,34 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "train_end": "2017-12-31",
+  "valid_end": "2019-12-31",
+  "iterations": 900,
+  "depth": 6,
+  "learning_rate": 0.03,
+  "l2_leaf_reg": 5.0,
+  "subsample": 0.85,
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "target_col": "y",
+  "identity_cols": [
+    "teamA_key",
+    "teamB_key",
+    "teamA_player1",
+    "teamA_player2",
+    "teamB_player1",
+    "teamB_player2"
+  ],
+  "full_feature_count": 110,
+  "no_identity_feature_count": 104,
+  "baseline_feature_count": 104
+}

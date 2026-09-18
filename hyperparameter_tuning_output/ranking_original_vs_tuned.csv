@@ -1,0 +1,5 @@
+model,original_test_auc,original_auc_rank,tuned_test_auc,tuned_auc_rank,rank_changed
+CatBoost,0.8126,1,0.8128782212360338,1,False
+XGBoost,0.8068,2,0.8109874120145186,2,False
+Random Forest,0.7872,3,0.788684779307676,3,False
+Logistic Regression,0.7607,4,0.7611222343046637,4,False

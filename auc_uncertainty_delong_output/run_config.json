@@ -1,0 +1,55 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "identity_predictions": "/data2/zhangyiyi/beach_ai/final_catboost_v1/identity_leakproof_has_time_output/test_predictions_mean_10seeds.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/auc_uncertainty_delong_output",
+  "train_end": "2017-12-31",
+  "valid_end": "2019-12-31",
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "n_bootstrap": 5000,
+  "bootstrap_seed": 20260903,
+  "bootstrap_method": "paired stratified nonparametric bootstrap; percentile 95% CI",
+  "inference_prediction_strategy": "mean predicted probability across 10 random seeds for each test observation",
+  "delong_test": "paired two-sided DeLong test for correlated ROC curves",
+  "multiple_testing": "Holm correction across the six pairwise Table-1 baseline-model AUC comparisons; leak-proof identity comparison treated as a separate prespecified comparison",
+  "model_parameters": {
+    "Logistic Regression": {
+      "max_iter": 1200
+    },
+    "Random Forest": {
+      "n_estimators": 500,
+      "max_depth": null,
+      "min_samples_leaf": 2
+    },
+    "XGBoost": {
+      "n_estimators": 800,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "subsample": 0.85,
+      "colsample_bytree": 0.85,
+      "min_child_weight": 3,
+      "reg_alpha": 0.0,
+      "reg_lambda": 2.0
+    },
+    "CatBoost": {
+      "iterations": 900,
+      "depth": 6,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 5,
+      "subsample": 0.85,
+      "loss_function": "Logloss",
+      "eval_metric": "AUC",
+      "use_best_model": true
+    }
+  }
+}

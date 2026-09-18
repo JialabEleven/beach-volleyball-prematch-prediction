@@ -1,0 +1,4 @@
+model,n_runs,auc,accuracy,f1,logloss
+Elo favorite heuristic,1,0.7311 ± 0.0000,0.6651 ± 0.0000,0.6753 ± 0.0000,0.6096 ± 0.0000
+Elo-only Logistic Regression,1,0.7311 ± 0.0000,0.6646 ± 0.0000,0.6764 ± 0.0000,0.6051 ± 0.0000
+Full CatBoost,10,0.8230 ± 0.0006,0.7359 ± 0.0008,0.7432 ± 0.0010,0.5100 ± 0.0009

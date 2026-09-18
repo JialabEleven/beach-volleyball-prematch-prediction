@@ -1,0 +1,5 @@
+model,valid_auc,valid_accuracy,valid_f1,valid_logloss
+CatBoost,0.8229,0.7353,0.7415,0.5096
+XGBoost,0.8192,0.7343,0.7419,0.5149
+Random Forest,0.7969,0.7195,0.7282,0.5479
+Logistic Regression,0.7684,0.6913,0.7013,0.57

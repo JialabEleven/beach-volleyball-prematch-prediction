@@ -1,0 +1,37 @@
+{
+  "input_path": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "file_size_bytes": 87588483,
+  "sha256_file_bytes": "33d7569603f40c0c9bfce86f4b48c5822e6456b5270d6fd03e576f991af8d5c4",
+  "sha256_canonical_modeling_content": "b244068a639a0781878e75e8b3733d3227fef49dd9d42a23e8cf8bfea474a166",
+  "n_rows": 85509,
+  "n_columns_total": 115,
+  "n_required_identity_free_features": 104,
+  "date_min": "2000-09-16",
+  "date_max": "2022-09-23",
+  "year_min": 2000,
+  "year_max": 2022,
+  "target_values": [
+    0,
+    1
+  ],
+  "target_prevalence": 0.49919891473412153,
+  "identity_columns_present_in_raw_table": [
+    "teamA_key",
+    "teamB_key",
+    "teamA_player1",
+    "teamA_player2",
+    "teamB_player1",
+    "teamB_player2"
+  ],
+  "identity_columns_used_by_model": [],
+  "missing_required_columns": [],
+  "duplicate_full_rows": 0,
+  "check_n_rows_85509": true,
+  "check_year_min_2000": true,
+  "check_year_max_2022": true,
+  "check_feature_count_104": true,
+  "check_target_binary": true,
+  "check_required_columns_complete": true,
+  "structural_consistency_pass": true,
+  "exact_reference_fingerprint_status": "NO_REFERENCE_MANIFEST"
+}

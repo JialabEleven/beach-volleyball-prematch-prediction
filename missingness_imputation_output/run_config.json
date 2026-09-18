@@ -1,0 +1,46 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/missingness_imputation_output",
+  "n_rows": 85509,
+  "n_features_primary": 104,
+  "split": {
+    "train": "<= 2017-12-31",
+    "validation": "2018-01-01 to 2019-12-31",
+    "test": ">= 2020-01-01"
+  },
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "decision_threshold": 0.5,
+  "catboost_parameters": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "l2_leaf_reg": 5,
+    "subsample": 0.85,
+    "allow_writing_files": false,
+    "verbose": false,
+    "has_time": true
+  },
+  "strategies": [
+    "baseline_median_mode",
+    "native_numeric_missing",
+    "median_mode_plus_missing_indicators"
+  ],
+  "strategy_descriptions": {
+    "baseline_median_mode": "Numeric training median; categorical training mode.",
+    "native_numeric_missing": "Numeric NaN retained for CatBoost native handling; categorical missing encoded as __MISSING__.",
+    "median_mode_plus_missing_indicators": "Primary median/mode imputation plus binary indicators for features missing in training."
+  }
+}

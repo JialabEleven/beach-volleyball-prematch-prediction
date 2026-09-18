@@ -1,0 +1,46 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/identity_leakproof_has_time_output",
+  "chronological_sort_columns": [
+    "date",
+    "year",
+    "match_num"
+  ],
+  "train_end": "2017-12-31",
+  "valid_end": "2019-12-31",
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "has_time": true,
+  "identity_columns": [
+    "teamA_key",
+    "teamB_key",
+    "teamA_player1",
+    "teamA_player2",
+    "teamB_player1",
+    "teamB_player2"
+  ],
+  "baseline_feature_count": 104,
+  "identity_augmented_feature_count": 110,
+  "best_identity_seed_by_test_auc": 121,
+  "catboost_parameters": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 5.0,
+    "subsample": 0.85,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "has_time": true,
+    "use_best_model": true
+  }
+}

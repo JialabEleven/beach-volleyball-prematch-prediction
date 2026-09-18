@@ -1,0 +1,8 @@
+Analysis,Comparison,AUC difference,DeLong z,Raw P,Holm-adjusted P
+Baseline model comparison,Logistic Regression vs Random Forest,-0.0279,-9.290,<0.0001,<0.0001
+Baseline model comparison,Logistic Regression vs XGBoost,-0.0467,-16.309,<0.0001,<0.0001
+Baseline model comparison,Logistic Regression vs CatBoost,-0.0528,-17.012,<0.0001,<0.0001
+Baseline model comparison,Random Forest vs XGBoost,-0.0188,-11.456,<0.0001,<0.0001
+Baseline model comparison,Random Forest vs CatBoost,-0.0249,-14.542,<0.0001,<0.0001
+Baseline model comparison,XGBoost vs CatBoost,-0.0061,-6.557,<0.0001,<0.0001
+Leak-proof identity analysis,Leak-proof CatBoost baseline vs Leak-proof CatBoost + identity,0.0029,3.897,<0.0001,N/A

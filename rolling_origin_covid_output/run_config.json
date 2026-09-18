@@ -1,0 +1,76 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "raw_input": "/data2/zhangyiyi/beach_ai/beach-volleyball-master/data/full_archive/full_archive.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/rolling_origin_covid_output",
+  "feature_count": 104,
+  "identity_free": true,
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "sort_columns": [
+    "date",
+    "year",
+    "match_num"
+  ],
+  "windows": [
+    {
+      "window": "W1",
+      "train_end": "2011-12-31",
+      "valid_start": "2012-01-01",
+      "valid_end": "2013-12-31",
+      "test_start": "2014-01-01",
+      "test_end": "2015-12-31"
+    },
+    {
+      "window": "W2",
+      "train_end": "2013-12-31",
+      "valid_start": "2014-01-01",
+      "valid_end": "2015-12-31",
+      "test_start": "2016-01-01",
+      "test_end": "2017-12-31"
+    },
+    {
+      "window": "W3",
+      "train_end": "2015-12-31",
+      "valid_start": "2016-01-01",
+      "valid_end": "2017-12-31",
+      "test_start": "2018-01-01",
+      "test_end": "2019-12-31"
+    },
+    {
+      "window": "W4_original_final",
+      "train_end": "2017-12-31",
+      "valid_start": "2018-01-01",
+      "valid_end": "2019-12-31",
+      "test_start": "2020-01-01",
+      "test_end": "2022-12-31"
+    }
+  ],
+  "catboost": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 5.0,
+    "subsample": 0.85,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "has_time": true,
+    "use_best_model": true
+  },
+  "reproduction_reference": {
+    "auc": 0.8126,
+    "accuracy": 0.7294,
+    "f1": 0.7306,
+    "logloss": 0.5253
+  },
+  "reproduction_tolerance": 0.01
+}

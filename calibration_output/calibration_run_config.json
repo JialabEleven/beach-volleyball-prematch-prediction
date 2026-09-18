@@ -1,0 +1,14 @@
+{
+  "validation_predictions": "/data2/zhangyiyi/beach_ai/final_catboost_v1/priority6_global_subgroup_output/priority6_global_valid_predictions_mean_10seeds.csv",
+  "test_predictions": "/data2/zhangyiyi/beach_ai/final_catboost_v1/priority6_global_subgroup_output/priority6_global_test_predictions_mean_10seeds.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/priority7_calibration_output",
+  "n_bins_ece": 10,
+  "ece_binning": "10 equally spaced probability bins",
+  "probability_source": "Mean predicted probability across the 10 retained CatBoost random-seed runs",
+  "platt_fit_dataset": "validation only",
+  "isotonic_fit_dataset": "validation only",
+  "test_used_for_calibrator_fitting": false,
+  "platt_intercept": -0.0400310328068409,
+  "platt_slope": 1.1541589187694195,
+  "show_isotonic_in_figure": true
+}

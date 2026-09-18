@@ -1,0 +1,72 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/hyperparameter_tuning_output",
+  "external_split": {
+    "train_end": "2017-12-31",
+    "valid_end": "2019-12-31"
+  },
+  "tuning_folds": [
+    {
+      "fold": 1,
+      "train_end": "2011-12-31",
+      "valid_start": "2012-01-01",
+      "valid_end": "2013-12-31"
+    },
+    {
+      "fold": 2,
+      "train_end": "2013-12-31",
+      "valid_start": "2014-01-01",
+      "valid_end": "2015-12-31"
+    },
+    {
+      "fold": 3,
+      "train_end": "2015-12-31",
+      "valid_start": "2016-01-01",
+      "valid_end": "2017-12-31"
+    }
+  ],
+  "selection_metric": "mean internal validation AUC",
+  "tuning_seed": 42,
+  "random_search_budget_per_nonlinear_model": 30,
+  "final_seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "selected_hyperparameters": {
+    "Logistic Regression": {
+      "C": 0.01
+    },
+    "Random Forest": {
+      "max_depth": 20,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 800
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.8,
+      "learning_rate": 0.02,
+      "max_depth": 6,
+      "min_child_weight": 5,
+      "n_estimators": 1200,
+      "reg_lambda": 1.0,
+      "subsample": 0.8
+    },
+    "CatBoost": {
+      "depth": 6,
+      "iterations": 1300,
+      "l2_leaf_reg": 5.0,
+      "learning_rate": 0.03,
+      "subsample": 0.9
+    }
+  },
+  "catboost_use_best_model": false,
+  "note": "All hyperparameters were selected strictly within <=2017. External validation/test were not used for tuning."
+}

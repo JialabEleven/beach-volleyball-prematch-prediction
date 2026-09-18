@@ -1,0 +1,7 @@
+Model,AUC,Bootstrap 95% CI
+Logistic Regression,0.7607,0.7505–0.7706
+Random Forest,0.7886,0.7791–0.7982
+XGBoost,0.8073,0.7983–0.8164
+CatBoost,0.8135,0.8045–0.8225
+Leak-proof CatBoost baseline,0.8143,0.8054–0.8233
+Leak-proof CatBoost + identity,0.8114,0.8022–0.8202

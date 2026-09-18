@@ -1,0 +1,27 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/subgroup_outputs_with_sd",
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "train_end": "2017-12-31",
+  "valid_end": "2019-12-31",
+  "min_samples": 500,
+  "target_col": "y",
+  "feature_count": 104,
+  "subgroups": [
+    "gender_M",
+    "gender_W",
+    "circuit_AVP",
+    "circuit_FIVB"
+  ]
+}

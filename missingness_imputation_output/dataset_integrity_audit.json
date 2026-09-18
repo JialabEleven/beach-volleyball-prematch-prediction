@@ -1,0 +1,21 @@
+{
+  "n_rows": 85509,
+  "n_model_features": 104,
+  "date_min": "2000-09-16",
+  "date_max": "2022-09-23",
+  "year_min": 2000,
+  "year_max": 2022,
+  "target_prevalence": 0.49919891473412153,
+  "expected_rows_85509": true,
+  "expected_year_range_2000_2022": true,
+  "all_required_features_present": true,
+  "n_train": 65057,
+  "n_validation": 12369,
+  "n_test": 8083,
+  "train_date_min": "2000-09-16",
+  "train_date_max": "2017-11-23",
+  "validation_date_min": "2018-01-02",
+  "validation_date_max": "2019-11-13",
+  "test_date_min": "2020-01-07",
+  "test_date_max": "2022-09-23"
+}

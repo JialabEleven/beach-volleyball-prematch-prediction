@@ -1,0 +1,9 @@
+{
+  "input_path": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "n_rows": 85509,
+  "n_columns_total": 115,
+  "date_min": "2000-09-16",
+  "date_max": "2022-09-23",
+  "sha256_file_bytes": "33d7569603f40c0c9bfce86f4b48c5822e6456b5270d6fd03e576f991af8d5c4",
+  "sha256_canonical_modeling_content": "b244068a639a0781878e75e8b3733d3227fef49dd9d42a23e8cf8bfea474a166"
+}

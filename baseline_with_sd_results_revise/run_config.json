@@ -1,0 +1,23 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/baseline_with_sd_results_revise",
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82,
+    92,
+    102,
+    112,
+    122,
+    132
+  ],
+  "feature_count": 104,
+  "models": [
+    "Logistic Regression",
+    "Random Forest",
+    "XGBoost",
+    "CatBoost"
+  ]
+}

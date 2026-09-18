@@ -1,0 +1,4 @@
+Test AUC: 0.8016
+Test Accuracy: 0.7216
+Test F1: 0.7229
+Test LogLoss: 0.5369

@@ -1,0 +1,5 @@
+model,selected_params_json,mean_internal_validation_auc,sd_internal_validation_auc,selection_criterion
+Logistic Regression,"{""C"": 0.01}",0.7910514464200257,0.004119720570002878,highest mean AUC across 3 expanding-window folds
+Random Forest,"{""max_depth"": 20, ""max_features"": 1.0, ""min_samples_leaf"": 5, ""n_estimators"": 800}",0.8141990829294538,0.00479874235164108,highest mean AUC across 3 expanding-window folds
+XGBoost,"{""colsample_bytree"": 0.8, ""learning_rate"": 0.02, ""max_depth"": 6, ""min_child_weight"": 5, ""n_estimators"": 1200, ""reg_lambda"": 1.0, ""subsample"": 0.8}",0.8324995305646792,0.0034877306049020482,highest mean AUC across 3 expanding-window folds
+CatBoost,"{""depth"": 6, ""iterations"": 1300, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03, ""subsample"": 0.9}",0.8357979039265319,0.003275585152078593,highest mean AUC across 3 expanding-window folds

@@ -1,0 +1,3 @@
+model,feature_set,valid_auc,valid_accuracy,valid_f1,valid_logloss,test_auc,test_accuracy,test_f1,test_logloss
+CatBoost_full,full,0.8041,0.722,0.7341,0.5338,0.7975,0.721,0.7291,0.5447
+CatBoost_no_identity,no_identity,0.8227,0.7353,0.7422,0.5109,0.8118,0.7296,0.7311,0.5272

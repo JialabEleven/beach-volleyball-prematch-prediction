@@ -1,0 +1,29 @@
+{
+  "prediction_file": "/data2/zhangyiyi/beach_ai/final_catboost_v1/auc_uncertainty_delong_output/baseline_test_predictions_mean_10seeds.csv",
+  "probability_column": "catboost_probability_mean_10seeds",
+  "decision_threshold": 0.5,
+  "positive_class": "Team A win (y=1)",
+  "negative_class": "Team B win / Team A loss (y=0)",
+  "prediction_definition": "Mean CatBoost probability across 10 random-seed runs",
+  "pr_auc_definition": "Trapezoidal area under the precision-recall curve",
+  "average_precision_also_reported": true,
+  "metrics": {
+    "n_test": 8083,
+    "positive_n": 4003,
+    "negative_n": 4080,
+    "positive_prevalence": 0.4952369169862675,
+    "decision_threshold": 0.5,
+    "pr_auc": 0.8086273296932744,
+    "average_precision": 0.8086663978321211,
+    "no_skill_pr_baseline": 0.4952369169862675,
+    "accuracy": 0.7295558579735247,
+    "precision": 0.7202424242424242,
+    "recall_sensitivity": 0.7421933549837622,
+    "specificity": 0.717156862745098,
+    "f1_score": 0.7310531496062992,
+    "tn": 2926,
+    "fp": 1154,
+    "fn": 1032,
+    "tp": 2971
+  }
+}

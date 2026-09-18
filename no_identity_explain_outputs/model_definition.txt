@@ -1,0 +1,3 @@
+Main model: CatBoost_no_identity
+Target column: y
+Number of features after dropping identity columns: 107

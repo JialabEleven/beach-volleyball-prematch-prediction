@@ -1,0 +1,39 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/trivial_favorite_baseline_output",
+  "target": "y",
+  "elo_diff_feature": "avg_player_elo_diff",
+  "elo_probability_formula": "1 / (1 + 10^(-avg_player_elo_diff / 400))",
+  "train_period": "<= 2017-12-31",
+  "validation_period": "2018-01-01 to 2019-12-31",
+  "test_period": "> 2019-12-31",
+  "catboost_seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "catboost_parameters": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 5,
+    "subsample": 0.85,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "use_best_model": true
+  },
+  "feature_count_full_catboost": 104,
+  "missing_elo_diff": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "elo_diff_training_median": -0.3023366932939098
+}

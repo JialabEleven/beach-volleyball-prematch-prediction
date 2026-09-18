@@ -1,0 +1,15 @@
+Metric,Test value
+"Held-out test set, N","8,083"
+"Team A wins, n (%)","4,003 (49.5%)"
+Decision threshold,0.50
+PR-AUC,0.8086
+Average precision,0.8087
+Accuracy,0.7296
+Precision,0.7202
+Recall (sensitivity),0.7422
+Specificity,0.7172
+F1-score,0.7311
+True negatives (TN),"2,926"
+False positives (FP),"1,154"
+False negatives (FN),"1,032"
+True positives (TP),"2,971"

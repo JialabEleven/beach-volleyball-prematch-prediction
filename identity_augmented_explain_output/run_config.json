@@ -1,0 +1,46 @@
+{
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/identity_augmented_explain_output",
+  "train": "<= 2017-12-31",
+  "validation": "2018-01-01 to 2019-12-31",
+  "test": ">= 2020-01-01",
+  "derived_feature_count": 104,
+  "identity_feature_count": 6,
+  "total_feature_count": 110,
+  "identity_columns": [
+    "teamA_key",
+    "teamB_key",
+    "teamA_player1",
+    "teamA_player2",
+    "teamB_player1",
+    "teamB_player2"
+  ],
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "shap_sample_size_requested": 2000,
+  "shap_sample_size_used": 2000,
+  "shap_sample_seed": 20260909,
+  "catboost_parameters": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 5,
+    "subsample": 0.85,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "has_time": true,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "interpretation_strategy": "Average CatBoost importance and mean absolute SHAP across all 10 seeds; no best-test-seed selection."
+}

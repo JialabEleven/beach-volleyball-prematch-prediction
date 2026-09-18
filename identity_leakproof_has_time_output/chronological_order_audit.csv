@@ -1,0 +1,4 @@
+split,n_rows,start_date,end_date,chronological_order_violations,is_chronological
+train,65057,2000-09-16,2017-11-23,0,True
+validation,12369,2018-01-02,2019-11-13,0,True
+test,8083,2020-01-07,2022-09-23,0,True

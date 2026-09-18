@@ -1,0 +1,7 @@
+{
+  "reference_source": "previous manuscript Table 1",
+  "comparison_window": "W4_original_final: train<=2017, valid=2018-2019, test=2020-2022",
+  "tolerance_absolute": 0.01,
+  "all_metrics_within_tolerance": true,
+  "interpretation": "Strong consistency with the previously analyzed dataset/model pipeline"
+}

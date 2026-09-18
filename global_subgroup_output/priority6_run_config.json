@@ -1,0 +1,36 @@
+{
+  "analysis": "Priority 6 global-model subgroup evaluation",
+  "input": "/data2/zhangyiyi/beach_ai/final_catboost_v1/data/prematch_features_v3.csv",
+  "outdir": "/data2/zhangyiyi/beach_ai/final_catboost_v1/priority6_global_subgroup_output",
+  "target_col": "y",
+  "train_end": "2017-12-31",
+  "valid_end": "2019-12-31",
+  "seeds": [
+    41,
+    51,
+    61,
+    71,
+    81,
+    91,
+    101,
+    111,
+    121,
+    131
+  ],
+  "decision_threshold": 0.5,
+  "feature_count": 104,
+  "catboost_params": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "l2_leaf_reg": 5,
+    "subsample": 0.85,
+    "allow_writing_files": false,
+    "verbose": false
+  },
+  "design": "One global CatBoost model is trained on the complete training set for each seed. Validation/test predictions are generated for all observations first, then stratified by gender and circuit. No subgroup-specific retraining is performed.",
+  "uncertainty_reporting": "Mean ± SD across random seeds; no bootstrap CI in Priority 6.",
+  "subgroup_significance_testing": false
+}
