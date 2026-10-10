@@ -1,0 +1,2 @@
+feature,catboost_importance_mean,catboost_importance_sd,mean_abs_shap_mean,mean_abs_shap_sd,catboost_importance_rank,mean_abs_shap_rank,catboost_importance_share_pct,mean_abs_shap_share_pct
+avg_player_elo_diff,9.110433339740904,0.29183867333943553,0.3774452629774611,0.007035126343033727,2,1,9.110433339740904,13.093834295924486

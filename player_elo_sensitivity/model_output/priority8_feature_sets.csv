@@ -1,0 +1,401 @@
+feature_set,feature,feature_family
+Full,gender,Other prematch
+Full,circuit,Other prematch
+Full,country,Other prematch
+Full,bracket,Other prematch
+Full,round,Other prematch
+Full,month,Other prematch
+Full,teamA_avg_age,Other prematch
+Full,teamB_avg_age,Other prematch
+Full,age_diff,Other prematch
+Full,teamA_avg_hgt,Other prematch
+Full,teamB_avg_hgt,Other prematch
+Full,hgt_diff,Other prematch
+Full,teamA_rank,Ranking
+Full,teamB_rank,Ranking
+Full,rank_diff,Ranking
+Full,teamA_is_qualifier,Other prematch
+Full,teamB_is_qualifier,Other prematch
+Full,teamA_qualifier_num,Other prematch
+Full,teamB_qualifier_num,Other prematch
+Full,qualifier_num_diff,Other prematch
+Full,one_side_qualifier,Other prematch
+Full,both_qualifier,Other prematch
+Full,teamA_same_country,Other prematch
+Full,teamB_same_country,Other prematch
+Full,teamA_is_new_pair,Other prematch
+Full,teamB_is_new_pair,Other prematch
+Full,teamA_prior_matches,Other prematch
+Full,teamB_prior_matches,Other prematch
+Full,pair_prior_matches_diff,Other prematch
+Full,teamA_prior_win_pct,Other prematch
+Full,teamB_prior_win_pct,Other prematch
+Full,pair_prior_win_pct_diff,Other prematch
+Full,teamA_recent3_win_pct,Other prematch
+Full,teamB_recent3_win_pct,Other prematch
+Full,recent3_win_pct_diff,Other prematch
+Full,teamA_recent5_win_pct,Other prematch
+Full,teamB_recent5_win_pct,Other prematch
+Full,recent5_win_pct_diff,Other prematch
+Full,teamA_recent10_win_pct,Other prematch
+Full,teamB_recent10_win_pct,Other prematch
+Full,recent10_win_pct_diff,Other prematch
+Full,teamA_recent20_win_pct,Other prematch
+Full,teamB_recent20_win_pct,Other prematch
+Full,recent20_win_pct_diff,Other prematch
+Full,teamA_last30_match_count,Other prematch
+Full,teamB_last30_match_count,Other prematch
+Full,last30_match_count_diff,Other prematch
+Full,teamA_last30_win_pct,Other prematch
+Full,teamB_last30_win_pct,Other prematch
+Full,last30_win_pct_diff,Other prematch
+Full,teamA_last90_match_count,Other prematch
+Full,teamB_last90_match_count,Other prematch
+Full,last90_match_count_diff,Other prematch
+Full,teamA_last90_win_pct,Other prematch
+Full,teamB_last90_win_pct,Other prematch
+Full,last90_win_pct_diff,Other prematch
+Full,teamA_last180_match_count,Other prematch
+Full,teamB_last180_match_count,Other prematch
+Full,last180_match_count_diff,Other prematch
+Full,teamA_last180_win_pct,Other prematch
+Full,teamB_last180_win_pct,Other prematch
+Full,last180_win_pct_diff,Other prematch
+Full,teamA_days_since_last_match,Other prematch
+Full,teamB_days_since_last_match,Other prematch
+Full,days_since_last_match_diff,Other prematch
+Full,teamA_avg_player_prior_matches,Other prematch
+Full,teamB_avg_player_prior_matches,Other prematch
+Full,avg_player_prior_matches_diff,Other prematch
+Full,teamA_avg_player_prior_win_pct,Other prematch
+Full,teamB_avg_player_prior_win_pct,Other prematch
+Full,avg_player_prior_win_pct_diff,Other prematch
+Full,teamA_avg_player_recent10_win_pct,Other prematch
+Full,teamB_avg_player_recent10_win_pct,Other prematch
+Full,avg_player_recent10_win_pct_diff,Other prematch
+Full,teamA_avg_player_recent20_win_pct,Other prematch
+Full,teamB_avg_player_recent20_win_pct,Other prematch
+Full,avg_player_recent20_win_pct_diff,Other prematch
+Full,teamA_avg_player_last90_match_count,Other prematch
+Full,teamB_avg_player_last90_match_count,Other prematch
+Full,avg_player_last90_match_count_diff,Other prematch
+Full,teamA_avg_player_last90_win_pct,Other prematch
+Full,teamB_avg_player_last90_win_pct,Other prematch
+Full,avg_player_last90_win_pct_diff,Other prematch
+Full,teamA_avg_player_days_since_last_match,Other prematch
+Full,teamB_avg_player_days_since_last_match,Other prematch
+Full,avg_player_days_since_last_match_diff,Other prematch
+Full,teamA_both_players_new,Other prematch
+Full,teamB_both_players_new,Other prematch
+Full,h2h_prior_matches,Other prematch
+Full,h2h_teamA_win_pct,Other prematch
+Full,h2h_recent3_teamA_win_pct,Other prematch
+Full,teamA_elo,Elo
+Full,teamB_elo,Elo
+Full,elo_diff,Elo
+Full,teamA_player1_elo,Elo
+Full,teamA_player2_elo,Elo
+Full,teamB_player1_elo,Elo
+Full,teamB_player2_elo,Elo
+Full,teamA_avg_player_elo,Elo
+Full,teamB_avg_player_elo,Elo
+Full,avg_player_elo_diff,Elo
+Full,teamA_blend_elo,Elo
+Full,teamB_blend_elo,Elo
+Full,blend_elo_diff,Elo
+Elo-only,teamA_elo,Elo
+Elo-only,teamB_elo,Elo
+Elo-only,elo_diff,Elo
+Elo-only,teamA_player1_elo,Elo
+Elo-only,teamA_player2_elo,Elo
+Elo-only,teamB_player1_elo,Elo
+Elo-only,teamB_player2_elo,Elo
+Elo-only,teamA_avg_player_elo,Elo
+Elo-only,teamB_avg_player_elo,Elo
+Elo-only,avg_player_elo_diff,Elo
+Elo-only,teamA_blend_elo,Elo
+Elo-only,teamB_blend_elo,Elo
+Elo-only,blend_elo_diff,Elo
+Ranking-only,teamA_rank,Ranking
+Ranking-only,teamB_rank,Ranking
+Ranking-only,rank_diff,Ranking
+No-Elo,gender,Other prematch
+No-Elo,circuit,Other prematch
+No-Elo,country,Other prematch
+No-Elo,bracket,Other prematch
+No-Elo,round,Other prematch
+No-Elo,month,Other prematch
+No-Elo,teamA_avg_age,Other prematch
+No-Elo,teamB_avg_age,Other prematch
+No-Elo,age_diff,Other prematch
+No-Elo,teamA_avg_hgt,Other prematch
+No-Elo,teamB_avg_hgt,Other prematch
+No-Elo,hgt_diff,Other prematch
+No-Elo,teamA_rank,Ranking
+No-Elo,teamB_rank,Ranking
+No-Elo,rank_diff,Ranking
+No-Elo,teamA_is_qualifier,Other prematch
+No-Elo,teamB_is_qualifier,Other prematch
+No-Elo,teamA_qualifier_num,Other prematch
+No-Elo,teamB_qualifier_num,Other prematch
+No-Elo,qualifier_num_diff,Other prematch
+No-Elo,one_side_qualifier,Other prematch
+No-Elo,both_qualifier,Other prematch
+No-Elo,teamA_same_country,Other prematch
+No-Elo,teamB_same_country,Other prematch
+No-Elo,teamA_is_new_pair,Other prematch
+No-Elo,teamB_is_new_pair,Other prematch
+No-Elo,teamA_prior_matches,Other prematch
+No-Elo,teamB_prior_matches,Other prematch
+No-Elo,pair_prior_matches_diff,Other prematch
+No-Elo,teamA_prior_win_pct,Other prematch
+No-Elo,teamB_prior_win_pct,Other prematch
+No-Elo,pair_prior_win_pct_diff,Other prematch
+No-Elo,teamA_recent3_win_pct,Other prematch
+No-Elo,teamB_recent3_win_pct,Other prematch
+No-Elo,recent3_win_pct_diff,Other prematch
+No-Elo,teamA_recent5_win_pct,Other prematch
+No-Elo,teamB_recent5_win_pct,Other prematch
+No-Elo,recent5_win_pct_diff,Other prematch
+No-Elo,teamA_recent10_win_pct,Other prematch
+No-Elo,teamB_recent10_win_pct,Other prematch
+No-Elo,recent10_win_pct_diff,Other prematch
+No-Elo,teamA_recent20_win_pct,Other prematch
+No-Elo,teamB_recent20_win_pct,Other prematch
+No-Elo,recent20_win_pct_diff,Other prematch
+No-Elo,teamA_last30_match_count,Other prematch
+No-Elo,teamB_last30_match_count,Other prematch
+No-Elo,last30_match_count_diff,Other prematch
+No-Elo,teamA_last30_win_pct,Other prematch
+No-Elo,teamB_last30_win_pct,Other prematch
+No-Elo,last30_win_pct_diff,Other prematch
+No-Elo,teamA_last90_match_count,Other prematch
+No-Elo,teamB_last90_match_count,Other prematch
+No-Elo,last90_match_count_diff,Other prematch
+No-Elo,teamA_last90_win_pct,Other prematch
+No-Elo,teamB_last90_win_pct,Other prematch
+No-Elo,last90_win_pct_diff,Other prematch
+No-Elo,teamA_last180_match_count,Other prematch
+No-Elo,teamB_last180_match_count,Other prematch
+No-Elo,last180_match_count_diff,Other prematch
+No-Elo,teamA_last180_win_pct,Other prematch
+No-Elo,teamB_last180_win_pct,Other prematch
+No-Elo,last180_win_pct_diff,Other prematch
+No-Elo,teamA_days_since_last_match,Other prematch
+No-Elo,teamB_days_since_last_match,Other prematch
+No-Elo,days_since_last_match_diff,Other prematch
+No-Elo,teamA_avg_player_prior_matches,Other prematch
+No-Elo,teamB_avg_player_prior_matches,Other prematch
+No-Elo,avg_player_prior_matches_diff,Other prematch
+No-Elo,teamA_avg_player_prior_win_pct,Other prematch
+No-Elo,teamB_avg_player_prior_win_pct,Other prematch
+No-Elo,avg_player_prior_win_pct_diff,Other prematch
+No-Elo,teamA_avg_player_recent10_win_pct,Other prematch
+No-Elo,teamB_avg_player_recent10_win_pct,Other prematch
+No-Elo,avg_player_recent10_win_pct_diff,Other prematch
+No-Elo,teamA_avg_player_recent20_win_pct,Other prematch
+No-Elo,teamB_avg_player_recent20_win_pct,Other prematch
+No-Elo,avg_player_recent20_win_pct_diff,Other prematch
+No-Elo,teamA_avg_player_last90_match_count,Other prematch
+No-Elo,teamB_avg_player_last90_match_count,Other prematch
+No-Elo,avg_player_last90_match_count_diff,Other prematch
+No-Elo,teamA_avg_player_last90_win_pct,Other prematch
+No-Elo,teamB_avg_player_last90_win_pct,Other prematch
+No-Elo,avg_player_last90_win_pct_diff,Other prematch
+No-Elo,teamA_avg_player_days_since_last_match,Other prematch
+No-Elo,teamB_avg_player_days_since_last_match,Other prematch
+No-Elo,avg_player_days_since_last_match_diff,Other prematch
+No-Elo,teamA_both_players_new,Other prematch
+No-Elo,teamB_both_players_new,Other prematch
+No-Elo,h2h_prior_matches,Other prematch
+No-Elo,h2h_teamA_win_pct,Other prematch
+No-Elo,h2h_recent3_teamA_win_pct,Other prematch
+No-ranking,gender,Other prematch
+No-ranking,circuit,Other prematch
+No-ranking,country,Other prematch
+No-ranking,bracket,Other prematch
+No-ranking,round,Other prematch
+No-ranking,month,Other prematch
+No-ranking,teamA_avg_age,Other prematch
+No-ranking,teamB_avg_age,Other prematch
+No-ranking,age_diff,Other prematch
+No-ranking,teamA_avg_hgt,Other prematch
+No-ranking,teamB_avg_hgt,Other prematch
+No-ranking,hgt_diff,Other prematch
+No-ranking,teamA_is_qualifier,Other prematch
+No-ranking,teamB_is_qualifier,Other prematch
+No-ranking,teamA_qualifier_num,Other prematch
+No-ranking,teamB_qualifier_num,Other prematch
+No-ranking,qualifier_num_diff,Other prematch
+No-ranking,one_side_qualifier,Other prematch
+No-ranking,both_qualifier,Other prematch
+No-ranking,teamA_same_country,Other prematch
+No-ranking,teamB_same_country,Other prematch
+No-ranking,teamA_is_new_pair,Other prematch
+No-ranking,teamB_is_new_pair,Other prematch
+No-ranking,teamA_prior_matches,Other prematch
+No-ranking,teamB_prior_matches,Other prematch
+No-ranking,pair_prior_matches_diff,Other prematch
+No-ranking,teamA_prior_win_pct,Other prematch
+No-ranking,teamB_prior_win_pct,Other prematch
+No-ranking,pair_prior_win_pct_diff,Other prematch
+No-ranking,teamA_recent3_win_pct,Other prematch
+No-ranking,teamB_recent3_win_pct,Other prematch
+No-ranking,recent3_win_pct_diff,Other prematch
+No-ranking,teamA_recent5_win_pct,Other prematch
+No-ranking,teamB_recent5_win_pct,Other prematch
+No-ranking,recent5_win_pct_diff,Other prematch
+No-ranking,teamA_recent10_win_pct,Other prematch
+No-ranking,teamB_recent10_win_pct,Other prematch
+No-ranking,recent10_win_pct_diff,Other prematch
+No-ranking,teamA_recent20_win_pct,Other prematch
+No-ranking,teamB_recent20_win_pct,Other prematch
+No-ranking,recent20_win_pct_diff,Other prematch
+No-ranking,teamA_last30_match_count,Other prematch
+No-ranking,teamB_last30_match_count,Other prematch
+No-ranking,last30_match_count_diff,Other prematch
+No-ranking,teamA_last30_win_pct,Other prematch
+No-ranking,teamB_last30_win_pct,Other prematch
+No-ranking,last30_win_pct_diff,Other prematch
+No-ranking,teamA_last90_match_count,Other prematch
+No-ranking,teamB_last90_match_count,Other prematch
+No-ranking,last90_match_count_diff,Other prematch
+No-ranking,teamA_last90_win_pct,Other prematch
+No-ranking,teamB_last90_win_pct,Other prematch
+No-ranking,last90_win_pct_diff,Other prematch
+No-ranking,teamA_last180_match_count,Other prematch
+No-ranking,teamB_last180_match_count,Other prematch
+No-ranking,last180_match_count_diff,Other prematch
+No-ranking,teamA_last180_win_pct,Other prematch
+No-ranking,teamB_last180_win_pct,Other prematch
+No-ranking,last180_win_pct_diff,Other prematch
+No-ranking,teamA_days_since_last_match,Other prematch
+No-ranking,teamB_days_since_last_match,Other prematch
+No-ranking,days_since_last_match_diff,Other prematch
+No-ranking,teamA_avg_player_prior_matches,Other prematch
+No-ranking,teamB_avg_player_prior_matches,Other prematch
+No-ranking,avg_player_prior_matches_diff,Other prematch
+No-ranking,teamA_avg_player_prior_win_pct,Other prematch
+No-ranking,teamB_avg_player_prior_win_pct,Other prematch
+No-ranking,avg_player_prior_win_pct_diff,Other prematch
+No-ranking,teamA_avg_player_recent10_win_pct,Other prematch
+No-ranking,teamB_avg_player_recent10_win_pct,Other prematch
+No-ranking,avg_player_recent10_win_pct_diff,Other prematch
+No-ranking,teamA_avg_player_recent20_win_pct,Other prematch
+No-ranking,teamB_avg_player_recent20_win_pct,Other prematch
+No-ranking,avg_player_recent20_win_pct_diff,Other prematch
+No-ranking,teamA_avg_player_last90_match_count,Other prematch
+No-ranking,teamB_avg_player_last90_match_count,Other prematch
+No-ranking,avg_player_last90_match_count_diff,Other prematch
+No-ranking,teamA_avg_player_last90_win_pct,Other prematch
+No-ranking,teamB_avg_player_last90_win_pct,Other prematch
+No-ranking,avg_player_last90_win_pct_diff,Other prematch
+No-ranking,teamA_avg_player_days_since_last_match,Other prematch
+No-ranking,teamB_avg_player_days_since_last_match,Other prematch
+No-ranking,avg_player_days_since_last_match_diff,Other prematch
+No-ranking,teamA_both_players_new,Other prematch
+No-ranking,teamB_both_players_new,Other prematch
+No-ranking,h2h_prior_matches,Other prematch
+No-ranking,h2h_teamA_win_pct,Other prematch
+No-ranking,h2h_recent3_teamA_win_pct,Other prematch
+No-ranking,teamA_elo,Elo
+No-ranking,teamB_elo,Elo
+No-ranking,elo_diff,Elo
+No-ranking,teamA_player1_elo,Elo
+No-ranking,teamA_player2_elo,Elo
+No-ranking,teamB_player1_elo,Elo
+No-ranking,teamB_player2_elo,Elo
+No-ranking,teamA_avg_player_elo,Elo
+No-ranking,teamB_avg_player_elo,Elo
+No-ranking,avg_player_elo_diff,Elo
+No-ranking,teamA_blend_elo,Elo
+No-ranking,teamB_blend_elo,Elo
+No-ranking,blend_elo_diff,Elo
+No-Elo-and-no-ranking,gender,Other prematch
+No-Elo-and-no-ranking,circuit,Other prematch
+No-Elo-and-no-ranking,country,Other prematch
+No-Elo-and-no-ranking,bracket,Other prematch
+No-Elo-and-no-ranking,round,Other prematch
+No-Elo-and-no-ranking,month,Other prematch
+No-Elo-and-no-ranking,teamA_avg_age,Other prematch
+No-Elo-and-no-ranking,teamB_avg_age,Other prematch
+No-Elo-and-no-ranking,age_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_hgt,Other prematch
+No-Elo-and-no-ranking,teamB_avg_hgt,Other prematch
+No-Elo-and-no-ranking,hgt_diff,Other prematch
+No-Elo-and-no-ranking,teamA_is_qualifier,Other prematch
+No-Elo-and-no-ranking,teamB_is_qualifier,Other prematch
+No-Elo-and-no-ranking,teamA_qualifier_num,Other prematch
+No-Elo-and-no-ranking,teamB_qualifier_num,Other prematch
+No-Elo-and-no-ranking,qualifier_num_diff,Other prematch
+No-Elo-and-no-ranking,one_side_qualifier,Other prematch
+No-Elo-and-no-ranking,both_qualifier,Other prematch
+No-Elo-and-no-ranking,teamA_same_country,Other prematch
+No-Elo-and-no-ranking,teamB_same_country,Other prematch
+No-Elo-and-no-ranking,teamA_is_new_pair,Other prematch
+No-Elo-and-no-ranking,teamB_is_new_pair,Other prematch
+No-Elo-and-no-ranking,teamA_prior_matches,Other prematch
+No-Elo-and-no-ranking,teamB_prior_matches,Other prematch
+No-Elo-and-no-ranking,pair_prior_matches_diff,Other prematch
+No-Elo-and-no-ranking,teamA_prior_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_prior_win_pct,Other prematch
+No-Elo-and-no-ranking,pair_prior_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_recent3_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_recent3_win_pct,Other prematch
+No-Elo-and-no-ranking,recent3_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_recent5_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_recent5_win_pct,Other prematch
+No-Elo-and-no-ranking,recent5_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_recent10_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_recent10_win_pct,Other prematch
+No-Elo-and-no-ranking,recent10_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_recent20_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_recent20_win_pct,Other prematch
+No-Elo-and-no-ranking,recent20_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_last30_match_count,Other prematch
+No-Elo-and-no-ranking,teamB_last30_match_count,Other prematch
+No-Elo-and-no-ranking,last30_match_count_diff,Other prematch
+No-Elo-and-no-ranking,teamA_last30_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_last30_win_pct,Other prematch
+No-Elo-and-no-ranking,last30_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_last90_match_count,Other prematch
+No-Elo-and-no-ranking,teamB_last90_match_count,Other prematch
+No-Elo-and-no-ranking,last90_match_count_diff,Other prematch
+No-Elo-and-no-ranking,teamA_last90_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_last90_win_pct,Other prematch
+No-Elo-and-no-ranking,last90_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_last180_match_count,Other prematch
+No-Elo-and-no-ranking,teamB_last180_match_count,Other prematch
+No-Elo-and-no-ranking,last180_match_count_diff,Other prematch
+No-Elo-and-no-ranking,teamA_last180_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_last180_win_pct,Other prematch
+No-Elo-and-no-ranking,last180_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_days_since_last_match,Other prematch
+No-Elo-and-no-ranking,teamB_days_since_last_match,Other prematch
+No-Elo-and-no-ranking,days_since_last_match_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_prior_matches,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_prior_matches,Other prematch
+No-Elo-and-no-ranking,avg_player_prior_matches_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_prior_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_prior_win_pct,Other prematch
+No-Elo-and-no-ranking,avg_player_prior_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_recent10_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_recent10_win_pct,Other prematch
+No-Elo-and-no-ranking,avg_player_recent10_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_recent20_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_recent20_win_pct,Other prematch
+No-Elo-and-no-ranking,avg_player_recent20_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_last90_match_count,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_last90_match_count,Other prematch
+No-Elo-and-no-ranking,avg_player_last90_match_count_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_last90_win_pct,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_last90_win_pct,Other prematch
+No-Elo-and-no-ranking,avg_player_last90_win_pct_diff,Other prematch
+No-Elo-and-no-ranking,teamA_avg_player_days_since_last_match,Other prematch
+No-Elo-and-no-ranking,teamB_avg_player_days_since_last_match,Other prematch
+No-Elo-and-no-ranking,avg_player_days_since_last_match_diff,Other prematch
+No-Elo-and-no-ranking,teamA_both_players_new,Other prematch
+No-Elo-and-no-ranking,teamB_both_players_new,Other prematch
+No-Elo-and-no-ranking,h2h_prior_matches,Other prematch
+No-Elo-and-no-ranking,h2h_teamA_win_pct,Other prematch
+No-Elo-and-no-ranking,h2h_recent3_teamA_win_pct,Other prematch
