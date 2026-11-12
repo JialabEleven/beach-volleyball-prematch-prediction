@@ -1,0 +1,10 @@
+{
+  "meaning": "Personal server path prefixes in copied reports/configuration/logs are display aliases. Training input checksums and numeric reference results remain unchanged.",
+  "changed_files": [
+    "reference_results/r1_48threads/run_manifest.json",
+    "reference_results/main_table_reproduction/static_audit.json",
+    "docs/RESPONSE_R2_COMMENT3_AND_CHANGES.md",
+    "docs/TEMPORAL_SENSITIVITY_48THREADS_REPORT_CN.md",
+    "docs/TABLE1_REPRODUCTION_AUDIT_CN.md"
+  ]
+}

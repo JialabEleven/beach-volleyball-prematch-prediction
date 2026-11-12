@@ -1,0 +1,11 @@
+test_duplicate_calendar_ids_rejected (test_temporal_invariants.TemporalTests.test_duplicate_calendar_ids_rejected) ... ok
+test_future_outcomes_do_not_change_past_features (test_temporal_invariants.TemporalTests.test_future_outcomes_do_not_change_past_features) ... ok
+test_out_of_order_releases_keep_date_windows_correct (test_temporal_invariants.TemporalTests.test_out_of_order_releases_keep_date_windows_correct) ... ok
+test_refactored_core_reproduces_original (test_temporal_invariants.TemporalTests.test_refactored_core_reproduces_original) ... ok
+test_same_tournament_and_same_start_results_never_used (test_temporal_invariants.TemporalTests.test_same_tournament_and_same_start_results_never_used) ... ok
+test_verified_end_dates_exclude_overlapping_event (test_temporal_invariants.TemporalTests.test_verified_end_dates_exclude_overlapping_event) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.649s
+
+OK

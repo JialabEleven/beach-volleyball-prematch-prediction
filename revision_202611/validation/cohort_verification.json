@@ -1,0 +1,17 @@
+{
+  "raw_sha256": "b1a4ce4b90cb76fef5e47b4037f3aa86d8f43e57990c185187df0466f4a14e3d",
+  "n_rows": 85509,
+  "n_columns": 65,
+  "full_row_duplicates": 0,
+  "source_date_min": "2000-09-16",
+  "source_date_max": "2022-09-23",
+  "splits": [
+    65057,
+    12369,
+    8083
+  ],
+  "source_defined_event_gender_units": 1171,
+  "historical_download_date": "unknown",
+  "actual_match_chronology_verified": false,
+  "encoding_read_policy": "UTF-8 first; latin-1 fallback only on UnicodeDecodeError; no silent row dropping"
+}

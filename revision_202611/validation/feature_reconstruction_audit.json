@@ -1,0 +1,9 @@
+{
+  "n_rows": 85509,
+  "model_features": 104,
+  "no_date_model_features": 74,
+  "raw_sha256": "b1a4ce4b90cb76fef5e47b4037f3aa86d8f43e57990c185187df0466f4a14e3d",
+  "exact_csv_serialization_match_required": false,
+  "archived_feature_values_match_with_tolerance": true,
+  "reference_sha256": "33d7569603f40c0c9bfce86f4b48c5822e6456b5270d6fd03e576f991af8d5c4"
+}

@@ -1,0 +1,13 @@
+usage: reproduce.py train-r1 [-h] --features FEATURES --scenario SCENARIO
+                             --out OUT [--no-date-proxies] [--smoke]
+                             [--seeds SEEDS [SEEDS ...]] [--threads THREADS]
+
+options:
+  -h, --help            show this help message and exit
+  --features FEATURES
+  --scenario SCENARIO
+  --out OUT
+  --no-date-proxies
+  --smoke
+  --seeds SEEDS [SEEDS ...]
+  --threads THREADS

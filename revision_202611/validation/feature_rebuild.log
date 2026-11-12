@@ -1,0 +1,5 @@
+[ORIGINAL_PROJECT_ROOT]/R1_reproducibility_submission_20261104/Supplementary_Reproducibility_Package_v1/code/temporal/original_builder.py:181: RuntimeWarning: Mean of empty slice
+  avg_hgt = np.nanmean([hgt1, hgt2])
+[ORIGINAL_PROJECT_ROOT]/R1_reproducibility_submission_20261104/Supplementary_Reproducibility_Package_v1/code/temporal/original_builder.py:180: RuntimeWarning: Mean of empty slice
+  avg_age = np.nanmean([age1, age2])
+Feature reconstruction complete

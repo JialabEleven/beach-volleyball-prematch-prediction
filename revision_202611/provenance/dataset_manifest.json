@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/BigTimeStats/beach-volleyball",
+  "public_commit": "0fa423c5704de46a8cf0d9b8b542c694c0ae2276",
+  "public_commit_time_utc": "2022-09-29T03:37:51Z",
+  "raw_path": "data/full_archive/full_archive.csv",
+  "raw_sha256": "b1a4ce4b90cb76fef5e47b4037f3aa86d8f43e57990c185187df0466f4a14e3d",
+  "original_feature_csv_sha256": "33d7569603f40c0c9bfce86f4b48c5822e6456b5270d6fd03e576f991af8d5c4",
+  "raw_shape": [
+    85509,
+    65
+  ],
+  "original_feature_shape": [
+    85509,
+    115
+  ],
+  "n_model_predictors": 104,
+  "historical_author_download_date": "unknown",
+  "original_downloaded_commit_record": "not retained; byte equivalence established retrospectively",
+  "data_verification_date": "2026-11-04",
+  "upstream_coverage": "Public archive coverage, not asserted exhaustive",
+  "upstream_pre_archive_filtering": "not recoverable from local files",
+  "source_dates_are_match_dates": false,
+  "all_local_archive_rows_retained": true,
+  "rows_dropped_for_missing_values": 0,
+  "full_row_duplicates": 0,
+  "raw_encoding_policy": "UTF-8 first; latin-1 fallback on UnicodeDecodeError; encoding policy retained to reproduce modeling representation",
+  "year_file_value_discrepancies": 35,
+  "primary_modeling_source": "full_archive.csv; do not substitute yearly-file concatenation",
+  "feature_csv_serialization": "Numerical equivalence checked with tolerance; serialized feature CSV hash may differ with writer versions"
+}

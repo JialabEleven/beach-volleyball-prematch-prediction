@@ -1,0 +1,23 @@
+{
+  "input": "outputs/features/original_features.csv",
+  "outdir": "outputs/main_models",
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82,
+    92,
+    102,
+    112,
+    122,
+    132
+  ],
+  "feature_count": 104,
+  "models": [
+    "Logistic Regression",
+    "Random Forest",
+    "XGBoost",
+    "CatBoost"
+  ]
+}

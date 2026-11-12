@@ -1,0 +1,8 @@
+usage: reproduce.py train-main [-h] --features FEATURES --out OUT
+                               [--threads THREADS]
+
+options:
+  -h, --help           show this help message and exit
+  --features FEATURES
+  --out OUT
+  --threads THREADS

@@ -1,0 +1,1 @@
+Current matched 48-thread temporal results. Original model baseline is the reproduced 42..132-seed main-table run. Earlier 4-thread results and the 41..131 inference run are separate analyses; do not mix metrics. See root README and docs.

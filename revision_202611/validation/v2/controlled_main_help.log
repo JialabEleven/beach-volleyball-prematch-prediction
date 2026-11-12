@@ -1,0 +1,14 @@
+usage: train_baseline_models_with_sd.py [-h] --input INPUT [--outdir OUTDIR]
+                                        [--seeds SEEDS [SEEDS ...]]
+                                        [--threads THREADS]
+
+Train baseline models with enriched dynamic features and output mean ± SD over
+multiple random seeds
+
+options:
+  -h, --help            show this help message and exit
+  --input INPUT         Path to prematch_features.csv
+  --outdir OUTDIR       Directory to save metrics and ROC figures
+  --seeds SEEDS [SEEDS ...]
+                        Random seeds for repeated runs
+  --threads THREADS     Explicit CatBoost CPU threads

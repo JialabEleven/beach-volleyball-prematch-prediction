@@ -1,0 +1,16 @@
+{
+  "source": "Manuscript implementation paragraph; not a verified full historical environment lock",
+  "reported": {
+    "python": "3.11.7",
+    "pandas": "3.0.2",
+    "numpy": "1.26.4",
+    "scikit_learn": "1.5.2",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "shap": "0.51.0",
+    "matplotlib": "3.10.9"
+  },
+  "xgboost_shap_fits_repeated_in_package_validation": false,
+  "shap_environment_compatibility_not_certified": true,
+  "actual_tested_core": "requirements-core.txt"
+}

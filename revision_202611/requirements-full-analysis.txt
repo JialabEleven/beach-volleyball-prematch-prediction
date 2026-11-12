@@ -1,0 +1,4 @@
+-r requirements-core.txt
+# Reported historical XGBoost version; fitting not validated in the core environment.
+xgboost==3.2.0
+# Historical SHAP environment is not recovered; see provenance/historical_versions_reported.json.

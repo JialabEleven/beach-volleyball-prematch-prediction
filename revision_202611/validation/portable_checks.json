@@ -1,0 +1,10 @@
+{
+  "python_sources_syntax_checked": 35,
+  "syntax_errors": [],
+  "portable_zero_lag_matches_preexisting_frozen": true,
+  "portable_30day_release_assertions_passed": true,
+  "portable_train_smoke_passed": true,
+  "smoke_only": true,
+  "full_model_training_repeated": false,
+  "invoked_from_nonproject_directory": true
+}

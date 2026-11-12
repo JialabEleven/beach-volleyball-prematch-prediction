@@ -1,0 +1,3 @@
+# Third-party data and source evidence
+
+The original public AVP/FIVB raw archive is obtained from the pinned BigTimeStats source using reproduce.py download or supplied by the reader and verified by SHA256. The full third-party raw dataset and website HTML snapshots are not bundled. Consult the upstream provider for terms applicable to redistribution and use. Public source URLs, GitHub object metadata and retrieval-status/hash records are included. This package itself has not been published to a public repository by this preparation step. No new open-source license is assigned to third-party material or the authors' scripts here; authors can select a code license when publishing.

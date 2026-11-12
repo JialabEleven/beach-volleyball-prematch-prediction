@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+revision_202611/.venv/
+revision_202611/outputs/
+revision_202611/data/
+*.cbm

@@ -1,0 +1,22 @@
+[
+  {
+    "local_git_blob_sha1": "af8e1d8bd10927daa9b29bbe2f564f6b7d22654a",
+    "public_git_blob_sha1": "af8e1d8bd10927daa9b29bbe2f564f6b7d22654a",
+    "bytes_match_git_blob": true,
+    "public_commit": "0fa423c5704de46a8cf0d9b8b542c694c0ae2276",
+    "commit_time_utc": "2022-09-29T03:37:51Z",
+    "evidence_file": "github_2022_contents_commit.json",
+    "historical_download_date": "unknown",
+    "local_file": "bvb_matches_2022.csv"
+  },
+  {
+    "local_git_blob_sha1": "ad94ab7757ce6f089a8385c0dbe842243e33feb6",
+    "public_git_blob_sha1": "ad94ab7757ce6f089a8385c0dbe842243e33feb6",
+    "bytes_match_git_blob": true,
+    "public_commit": "0fa423c5704de46a8cf0d9b8b542c694c0ae2276",
+    "commit_time_utc": "2022-09-29T03:37:51Z",
+    "evidence_file": "github_fullarchive_contents_commit.json",
+    "historical_download_date": "unknown",
+    "local_file": "full_archive.csv"
+  }
+]

@@ -1,0 +1,2 @@
+scenario,seed,n_features,best_iteration,smoke_only,valid_auc,valid_accuracy,valid_f1,valid_logloss,valid_brier,test_auc,test_accuracy,test_f1,test_logloss,test_brier
+SMOKE_NOT_MANUSCRIPT_RESULTS,42,104,7,True,0.6490285241835468,0.64,0.7391304347826086,0.6755646707416545,0.24122438951407874,0.590195246179966,0.62,0.7121212121212122,0.6812065868941497,0.24403402559092435

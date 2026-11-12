@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "total_scenario_seed_rows": 40,
+  "new_models": 30,
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82,
+    92,
+    102,
+    112,
+    122,
+    132
+  ],
+  "thread_count": 48,
+  "input_files_unchanged": true,
+  "baseline_all_seed_metrics_match_archived": true,
+  "models_load_prediction_check_first_seed_each_scenario": true,
+  "test_alignment_by_raw_row": true,
+  "bootstrap_replicates_per_definition": 5000,
+  "actual_chronology_verified": false
+}

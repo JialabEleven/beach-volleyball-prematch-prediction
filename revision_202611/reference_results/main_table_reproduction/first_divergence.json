@@ -1,0 +1,7 @@
+{
+  "effective_parameter_differences": {},
+  "first_validation_auc_difference_iteration_zero_based": 6,
+  "first_tree_split_difference_iteration_zero_based": 0,
+  "first_tree_split_difference_ignoring_global_split_index": 59,
+  "warning": "split_index is model-specific; OnlineCtr semantics may additionally depend on model feature metadata"
+}

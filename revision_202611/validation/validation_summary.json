@@ -1,0 +1,17 @@
+{
+  "python_sources_syntax_checked": 35,
+  "syntax_errors": [],
+  "portable_zero_lag_matches_preexisting_frozen": true,
+  "portable_30day_release_assertions_passed": true,
+  "portable_train_smoke_passed": true,
+  "smoke_only": true,
+  "full_model_training_repeated": false,
+  "invoked_from_nonproject_directory": true,
+  "full_85509_feature_rebuild_matches_archived_values": true,
+  "feature_numeric_tolerance": 1e-10,
+  "paired_bootstrap_5000_draws_both_definitions_reproduced": true,
+  "clean_dependency_install_tested": false,
+  "fresh_network_raw_download_tested": false,
+  "full_four_model_training_repeated": false,
+  "historical_shap_environment_recovered": false
+}

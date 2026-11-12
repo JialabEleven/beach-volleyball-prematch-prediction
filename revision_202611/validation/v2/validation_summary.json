@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "packaged_train_r1_48thread_smoke_passed": true,
+  "packaged_controlled_main_help_passed": true,
+  "packaged_bootstrap_48threads_all_5000_draws_each_definition_reproduced": true,
+  "full_training_during_packaging": false,
+  "raw_rebuild_during_v2_packaging": false,
+  "previous_raw_rebuild_and_temporal_tests_retained": true,
+  "completed_server_models": 30,
+  "verified_catboost_main_table_seeds": 10,
+  "all_historical_analyses_reproduced": false
+}
